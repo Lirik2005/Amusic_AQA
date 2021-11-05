@@ -8,7 +8,7 @@ public class DataProvider {
 
     private static final List<User> validPhoneAndPasswordUserList = Arrays.asList(
             new User("+375291111111", null, "12345678"),
-            new User("+380931616161", null, "PoIuY154!"),
+            new User("+380931616161", null, "12345678"),
             new User("+375297122695", null, "23041987")
     );
 
@@ -20,7 +20,7 @@ public class DataProvider {
 
     private static final List<User> invalidPhoneAndValidPasswordUserList = Arrays.asList(
             new User("+375292222222", null, "12345678"),
-            new User("+375292222222", null, "PoIuY154!"),
+            new User("+375292222222", null, "12345678"),
             new User("+375292222222", null, "23041987")
     );
 
