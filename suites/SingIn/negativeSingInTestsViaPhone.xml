@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Negative test suite: singIn via phone number">
+    <test verbose="2" preserve-order="true" name="Negative test suite: singIn via phone number">
+        <classes>
+            <class name="by.andersen.amusic2at.tests.login.NegativeLoginTestsViaPhone">
+                <methods>
+                    <include name="negativeSingInWithInvalidCredentials"/>
+                    <include name="negativeSingInWithInvalidPassword"/>
+                    <include name="negativeSingInWithInvalidPhone"/>
+                    <include name="negativeSingInWithEmptyCredentials"/>
+                    <include name="negativeSingInWithEmptyPassword"/>
+                    <include name="negativeSingInWithEmptyPhone"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

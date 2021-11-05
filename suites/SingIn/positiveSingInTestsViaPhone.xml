@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Positive test suite: singIn via phone phone number">
+    <test verbose="2" preserve-order="true" name="Positive test suite: singIn via phone phone number">
+        <classes>
+            <class name="by.andersen.amusic2at.tests.login.PositiveLoginTestsViaPhone">
+                <methods>
+                    <include name="weCanSuccessLoginWithValidCredentials"/>
+                    <include name="weCanUseRememberMeForLoginWithValidCredentials"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

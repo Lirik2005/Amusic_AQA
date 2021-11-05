@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Negative test suite: singIn via e-mail">
+    <test verbose="2" preserve-order="true" name="Negative test suite: singIn via e-mail">
+        <classes>
+            <class name="by.andersen.amusic2at.tests.login.NegativeLoginTestsViaEmail">
+                <methods>
+                    <include name="negativeSingInWithInvalidCredentials"/>
+                    <include name="negativeSingInWithEmptyPassword"/>
+                    <include name="negativeSingInWithEmptyEmail"/>
+                    <include name="negativeSingInWithEmptyCredentials"/>
+                    <include name="negativeSingInWithIncorrectEmail"/>
+                    <include name="negativeSingInWithInvalidPassword"/>
+                    <include name="negativeSingInWithInvalidEmail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

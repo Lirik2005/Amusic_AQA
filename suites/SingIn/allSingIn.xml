@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All tests run">
+    <suite-files>
+        <suite-file path="positiveSingInTestsViaPhone.xml"/>
+        <suite-file path="negativeSingInTestsViaPhone.xml"/>
+        <suite-file path="positiveSingInTestsViaEmail.xml"/>
+        <suite-file path="negativeSingInTestsViaEmail.xml"/>
+    </suite-files>
+</suite>
